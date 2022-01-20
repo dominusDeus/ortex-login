@@ -1,0 +1,91 @@
+.login-n {
+  background-color: $section-backround-color;
+  color: $main-color;
+  border-radius: 5px;
+  p.main-login-n{
+    text-align: center;
+  }
+  .signup-card-n p.signup-n {
+    text-align: left;
+  }
+  input {
+    background-color: $login-inputs-background;
+    color: $main-color;
+    width: 350px;
+    justify-content: center;
+    &::placeholder {
+      color: $main-color;
+      // text-align: center;
+    }
+  }
+  .signup-n input {
+    display: block;
+  }
+  .modal {
+    .passwords-check-n{
+      display:none;
+    }
+
+    .label {
+      color: white;
+    }
+    button {
+      background-color: $login-buttons-background;
+    }
+    .modal-card-body{
+      background-color: $backround-color;
+      color: white;
+      input {
+        border-color: $turquoise-color;
+
+      }
+    }
+    .modal-card-head {
+      background-color: $section-backround-color;
+      // border-bottom: 1px solid $turquoise-color;
+      border-bottom: none;
+      p {
+        color: $turquoise-color;
+      }
+    }
+    .modal-card-foot {
+      background-color: $section-backround-color;
+      color: white;
+      // border-top: 1px solid $turquoise-color;
+      border-top: none;
+    }
+
+    button {
+      background-color: $login-buttons-background;
+      color: white;
+      &:hover{
+        background-color: $login-inputs-background ;
+        color: white;
+      }
+    }
+  } 
+
+  button.is-light {
+    background-color: $login-buttons-background;
+    width: 350px;
+  }
+
+ 
+}
+
+
+
+.logintext-n {
+  font-size: 2rem;
+  font-family: 'Ortex', 'Sans-serif';
+}
+
+.forgot-password {
+  //Using !important since bulma Class has used it first.
+  button.is-text.has-text-white:hover {
+    // background-color: hsl(0, 0%, 86%) !important;
+    background-color: #eee !important;
+    // color: black !important;
+    color: rgba(0,0,0,.7)!important;
+  }
+}

@@ -11,6 +11,7 @@ module.exports = {
     return config
   },
   env: {
-    AUTH0_NAMESPACE: process.env.AUTH0_NAMESPACE
+    ROOT_URI: process.env.NEXT_PUBLIC_ROOT_URI,
+    API_URI: process.env.NEXT_PUBLIC_API_URI
   }
 }

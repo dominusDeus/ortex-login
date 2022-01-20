@@ -1,0 +1,151 @@
+.header-n {
+  background-color: #081113;
+  color: white;
+  font-family: 'Ortex', 'Sans-Serif';
+}
+
+.logo-n {
+  letter-spacing: 5px;
+}
+
+.footer-n {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #081113;
+  color: white;
+  padding-bottom: 3rem;
+}
+
+.login-n {
+  background-color: #0f181b;
+  color: white;
+  border-radius: 5px;
+}
+
+.login-n p.main-login-n {
+  text-align: center;
+}
+
+.login-n .signup-card-n p.signup-n {
+  text-align: left;
+}
+
+.login-n input {
+  background-color: #3e3e3e;
+  color: white;
+  width: 350px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-n input::-webkit-input-placeholder {
+  color: white;
+}
+
+.login-n input:-ms-input-placeholder {
+  color: white;
+}
+
+.login-n input::-ms-input-placeholder {
+  color: white;
+}
+
+.login-n input::placeholder {
+  color: white;
+}
+
+.login-n .signup-n input {
+  display: block;
+}
+
+.login-n .modal .passwords-check-n {
+  display: none;
+}
+
+.login-n .modal .label {
+  color: white;
+}
+
+.login-n .modal button {
+  background-color: #969696;
+}
+
+.login-n .modal .modal-card-body {
+  background-color: #081113;
+  color: white;
+}
+
+.login-n .modal .modal-card-body input {
+  border-color: #33afaa;
+}
+
+.login-n .modal .modal-card-head {
+  background-color: #0f181b;
+  border-bottom: none;
+}
+
+.login-n .modal .modal-card-head p {
+  color: #33afaa;
+}
+
+.login-n .modal .modal-card-foot {
+  background-color: #0f181b;
+  color: white;
+  border-top: none;
+}
+
+.login-n .modal button {
+  background-color: #969696;
+  color: white;
+}
+
+.login-n .modal button:hover {
+  background-color: #3e3e3e;
+  color: white;
+}
+
+.login-n button.is-light {
+  background-color: #969696;
+  width: 350px;
+}
+
+.logintext-n {
+  font-size: 2rem;
+  font-family: 'Ortex', 'Sans-serif';
+}
+
+.forgot-password button.is-text.has-text-white:hover {
+  background-color: #eee !important;
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+@font-face {
+  font-family: "Ortex";
+  src: local("@/public/fonts/ortex.woff" format("woff"));
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #081113;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.turquoise-text {
+  color: #33afaa;
+}
+/*# sourceMappingURL=global.css.map */

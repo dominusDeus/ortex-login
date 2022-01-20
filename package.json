@@ -8,14 +8,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "bulma": "^0.9.3",
-    "dotenv-webpack": "^7.0.3",
     "next": "12.0.8",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "dotenv-webpack": "^7.0.3",
     "eslint": "8.6.0",
     "eslint-config-next": "12.0.8"
+  },
+  "browser": {
+    "fs": false,
+    "os": false
   }
 }
